@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login com Google</title>
+</head>
+<body>
+    <h2>Olá, {{ profile.name }}!</h2>
+    <img src="{{ profile.picture }}" alt="Foto de perfil" width="100">
+    <p>Email: {{ profile.email }}</p>
+    <a href="{{ url_for('logout') }}">Sair</a>
+</body>
+</html>
