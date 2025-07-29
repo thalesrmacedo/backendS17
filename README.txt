@@ -5,3 +5,4 @@
 5 - Tipo: Web application
 6 - Adicione em “Authorized redirect URIs”: http://localhost:5000/callback
 7 - Faça o download do arquivo client_secret.json
+8 - Adicione à pasta principal
